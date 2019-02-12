@@ -1,0 +1,54 @@
+{
+  "name": "etty-example",
+  "version": "0.0.1",
+  "description": "Simple example of Etty usage",
+  "main": "src/index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot --inline --watch-poll --colors --host 0.0.0.0 --port 1337",
+    "etty": "node makeTranslations.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firelivecompany/etty-example.git"
+  },
+  "keywords": [
+    "etty",
+    "i18n",
+    "example",
+    "mobx",
+    "react",
+    "typescript"
+  ],
+  "author": "Limbo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firelivecompany/etty-example/issues"
+  },
+  "homepage": "https://github.com/firelivecompany/etty-example#readme",
+  "dependencies": {
+    "etty": "^0.1.1",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.0",
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "@types/react-router-dom": "^4.3.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^2.1.0",
+    "etty-mockup": "^0.1.0",
+    "html-loader": "^0.5.5",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
