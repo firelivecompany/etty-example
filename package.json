@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/firelivecompany/etty-example#readme",
   "dependencies": {
-    "etty": "^0.1.1",
+    "etty": "^0.1.2",
     "mobx": "^5.9.0",
     "mobx-react": "^5.4.3",
     "react": "^16.8.1",
@@ -41,7 +41,6 @@
     "@types/react-router-dom": "^4.3.1",
     "awesome-typescript-loader": "^5.2.1",
     "css-loader": "^2.1.0",
-    "etty-mockup": "^0.1.0",
     "etty-webpack-plugin": "^0.1.0",
     "html-loader": "^0.5.5",
     "sass-loader": "^7.1.0",
