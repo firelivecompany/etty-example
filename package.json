@@ -42,6 +42,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "css-loader": "^2.1.0",
     "etty-mockup": "^0.1.0",
+    "etty-webpack-plugin": "^0.1.0",
     "html-loader": "^0.5.5",
     "sass-loader": "^7.1.0",
     "source-map-loader": "^0.2.4",

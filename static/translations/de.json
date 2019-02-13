@@ -1,7 +1,8 @@
 {
-  "Homepage": {
-    "title": "de:Homepage.title",
-    "description": "de:Homepage.description",
-    "subtitle": "de:Homepage.subtitle"
-  }
+    "Homepage": {
+        "title": "de:Homepage.title",
+        "description": "de:Homepage.description",
+        "subtitle": "de:Homepage.subtitle",
+        "kek": "de:Homepage.kek"
+    }
 }
