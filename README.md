@@ -7,9 +7,9 @@
 - [x] Initial dev-server setup  
 - [x] Automatical translation files generating during dev-server watch with `etty-webpack-plugin` (see console output!)
 - [ ] Locale-based routing
-- [ ] Initialization of the `etty` store
+- [x] Initialization of the `etty` store
 - [ ] Observing translations on locale change
-- [ ] Generating translations during simple build 
+- [x] Generating translations during simple build 
 - [ ] Document code
 
 ## How to run?

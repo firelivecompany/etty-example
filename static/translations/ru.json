@@ -2,7 +2,13 @@
     "Homepage": {
         "title": "ru:Homepage.title",
         "description": "ru:Homepage.description",
-        "subtitle": "ru:Homepage.subtitle",
-        "kek": "ru:Homepage.kek"
+        "arrayTest": [
+            "ru:Homepage.arrayTest_0",
+            "ru:Homepage.arrayTest_1",
+            "ru:Homepage.arrayTest_2",
+            "ru:Homepage.arrayTest_3"
+        ],
+        "kek": "ru:Homepage.kek",
+        "kappa": "ru:Homepage.kappa"
     }
 }

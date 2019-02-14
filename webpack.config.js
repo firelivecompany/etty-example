@@ -1,7 +1,7 @@
 const path = require("path")
 const webpack = require("webpack")
 const exec = require("child_process").exec
-const EttyPlugin = require("etty-webpack-plugin").default
+const EttyPlugin = require("../etty-webpack-plugin/dist").default
 
 console.log("\n\n")
 console.log(`\x1b[32m\x1b[1m You are running devserver\x1b[0m`)
@@ -27,7 +27,7 @@ var config = {
 	module: {
 		rules: [
 			{
-				test: /\.(t|j)sx?$/,
+				test: /\.tsx?$/,
 				loader: "awesome-typescript-loader",
 				exclude: /node_modules\/(?!superagent)/
 			},
@@ -44,12 +44,7 @@ var config = {
 				test: /\.(sa|c)ss$/,
 				use: [
 					"style-loader",
-					{
-						loader: "css-loader",
-						options: {
-							minimize: true
-						}
-					},
+					"css-loader",
 					{
 						loader: "sass-loader",
 						options: {

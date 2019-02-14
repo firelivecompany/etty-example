@@ -2,7 +2,8 @@
 	"Homepage": {
 		"title": "",
 		"description": "",
-		"subtitle": "",
-		"kek": ""
+		"arrayTest": ["", "", "", ""],
+		"kek": "",
+		"kappa": ""
 	}
 }
